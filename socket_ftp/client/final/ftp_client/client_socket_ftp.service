@@ -1,0 +1,13 @@
+[Unit]
+Description=Service of Cvanomalydetection for file transfer
+After=multi-user.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python3 /usr/bin/file_transfer_service/client_socket_ftp.py
+StandardInput=tty-force
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

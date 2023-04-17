@@ -1,0 +1,13 @@
+[Unit]
+Description=Service of Cvanomalydetection for images file transfer 
+After=multi-user.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/python3 /usr/bin/file_transfer_service/imgs_folder_event_handler.py
+StandardInput=tty-force
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

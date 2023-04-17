@@ -1,0 +1,67 @@
+{
+    "before": {
+        "id": "1664362377.331255-dtyazc",
+        "camera": "1_lamdong",
+        "frame_time": 1664362500.330552,
+        "snapshot_time": 1664362500.330552,
+        "label": "smoke",
+        "top_score": 0.57421875,
+        "false_positive": false,
+        "start_time": 1664362377.331255,
+        "end_time": null,
+        "score": 0.57421875,
+        "box": [
+            279,
+            792,
+            308,
+            834
+        ],
+        "area": 1218,
+        "region": [
+            78,
+            644,
+            398,
+            964
+        ],
+        "stationary": false,
+        "motionless_count": 0,
+        "position_changes": 1,
+        "current_zones": [],
+        "entered_zones": [],
+        "has_clip": false,
+        "has_snapshot": true
+    },
+    "after": {
+        "id": "1664362377.331255-dtyazc",
+        "camera": "1_lamdong",
+        "frame_time": 1664362500.330552,
+        "snapshot_time": 1664362500.330552,
+        "label": "smoke",
+        "top_score": 0.57421875,
+        "false_positive": false,
+        "start_time": 1664362377.331255,
+        "end_time": 1664362537.326946,
+        "score": 0.57421875,
+        "box": [
+            279,
+            792,
+            308,
+            834
+        ],
+        "area": 1218,
+        "region": [
+            78,
+            644,
+            398,
+            964
+        ],
+        "stationary": false,
+        "motionless_count": 0,
+        "position_changes": 1,
+        "current_zones": [],
+        "entered_zones": [],
+        "has_clip": false,
+        "has_snapshot": true
+    },
+    "type": "end"
+}
